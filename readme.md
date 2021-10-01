@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning - Inayah Surya Islami
+# Gold Price Prediction with Predictive Analytics
 
 ## Domain Proyek
 Emas telah digunakan sebagai bentuk mata uang di berbagai belahan dunia. Saat ini, logam mulia seperti emas dipegang oleh bank sentral di semua negara untuk menjamin pembayaran utang luar negeri, dan juga untuk mengendalikan inflasi yang mencerminkan kekuatan keuangan negara.
@@ -59,6 +59,7 @@ Pada tahap ini digunakan 3 model regresi yaitu linear regression (scikit learn),
 ## Evaluation
 Kerakteristik utama dari masalah regresi adalah target dari kumpulan data hanya berisi bilangan real. Error menggambarkan seberapa banyak model membuat kesalahan dalam prediksinya, kemudian dibandingan dengan target aktual menurut metrik tertentu. Metrik evaluasi yang digunakan pada kasus regresi di proyek ini adalah
 - Mean Absolute Error (MAE), merepresentasikan rata-rata perbedaan mutlak antara nilai aktual dan prediksi pada dataset. MAE mengukur rata-rata residu dalam dataset. MAE lebih intuitif dalam memberikan rata-rata error dari keseluruhan data.
+
 ![MAE](https://1.bp.blogspot.com/-OY4iwFkwEdQ/X8J8nmJFPFI/AAAAAAAACYo/hFjo4vbDdWguXH5XKhHEXWihbKKIkZA_wCLcBGAsYHQ/s241/Rumus%2BMAE.jpg)
 - Mean Squared Error, merepresentasikan rata-rata perbedaan kuadrat antara nilai aktual dan prediksi pada dataset. MSE mengukur varians dari residual. MSE sangat baik dalam memberikan gambaran terhadap seberapa konsisten model yang dibangun karena model dengan varian kecil dapat memberi hasil yang relatif konsisten. namun MSE sangat sensitif dengan outlier.
 untuk menerapkan metrik tersebut dapat menggunakan library Scikit Learn. kemudian membuat plot hasil prediksi dan aktual dari data testing untuk membandingan hasilnya secara visual.
